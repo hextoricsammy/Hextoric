@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Chapter Corner | Dashboard</title>
+</head>
+<body>
+
+    <header>
+        <h1>Chapter Corner</h1>
+
+        <p>
+            <em>Your Personal Reading Space</em>
+        </p>
+
+        <nav aria-label="Main navigation">
+             <a href="../index.html">Home</a> |
+	    <a href="my library.html">My Library</a> |
+            <a href="reading list.html">Reading List</a> |
+            <a href="reading tracker.html">Reading Tracker</a> |
+ 	    <a href="book reviews.html">Book Reviews</a> |
+            <a href="recommendations.html">Recommendations</a>|
+	    <a href="book wishlist.html">Book Wishlist</a>|
+	    <a href="articles.html">Articles</a>|
+	    <a href="about.html">About</a>|
+	    <a href="contact.html">Contact</a>|
+
+        </nav>
+    </header>
+
+    <hr>
+  <main>
+        <h2>Book Recommendation Form</h2>
+
+        <p>
+           We'd love to hear book recommendations from our wonderful community members! Share your favorite reads and help others discover their next great story.
+        </p>
+
+        <form action="#" method="get">
+
+            <p>
+                <label for="reader">
+                    Your Name:
+                </label>
+
+                <input
+                    type="text"
+                    id="reader"
+                    name="reader"
+                    required>
+            </p>
+
+            <p>
+                <label for="reader">
+                    E-mail:
+                </label>
+
+                <input
+                    type="text"
+                    id="contact"
+                    name="contact"
+                    required>
+            </p>
+
+
+            <p>
+                <label for="book">
+                    Book Title:
+                </label>
+
+                <input
+                    type="text"
+                    id="book"
+                    name="book"
+                    required>
+            </p>
+
+            <p>
+                <label for="author">
+                    Author:
+                </label>
+
+                <input
+                    type="text"
+                    id="author"
+                    name="author"
+                    required>
+            </p>
+
+            <p>
+                <label for="genre">
+                    Book Genre:
+                </label>
+
+                <select
+                    id="genre"
+                    name="genre"
+                    required>
+
+                    <option value="">
+                        Select a genre
+                    </option>
+
+                      <option value="romance">Romance</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="literary">Literary Fiction</option>
+                    <option value="nonfiction">Non-Fiction</option>
+		  <option value="thriller">Thriller</option>
+ <option value="horror">Horror</option>
+ <option value="science-fiction">Science Fiction</option>
+ <option value="contemporary">Contemporary Fiction</option>
+    <option value="dystopian">Dystopian</option>
+    <option value="adventure">Adventure</option>
+<option value="action">Action</option>
+    <option value="crime">Crime Fiction</option>
+    <option value="paranormal">Paranormal</option>
+    <option value="supernatural">Supernatural</option>
+    <option value="magical-realism">Magical Realism</option>
+    <option value="romantasy">Romantasy</option>
+    <option value="dark-romance">Dark Romance</option>
+    <option value="romantic-comedy">Romantic Comedy</option>
+    <option value="young-adult">Young Adult (YA)</option>
+    <option value="new-adult">New Adult (NA)</option>
+    <option value="coming-of-age">Coming of Age</option>
+    <option value="slice-of-life">Slice of Life</option>
+    <option value="lgbtq">LGBTQ+ Fiction</option>
+    <option value="graphic-novel">Graphic Novel</option>
+    <option value="manga">Manga</option>
+    <option value="light-novel">Light Novel</option>
+ <option value="biography">Biography</option>
+    <option value="autobiography">Autobiography</option>
+    <option value="memoir">Memoir</option>
+    <option value="self-help">Self-Help</option>
+    <option value="psychology">Psychology</option>
+    <option value="philosophy">Philosophy</option>
+    <option value="history">History</option>
+    <option value="true-crime">True Crime</option>
+    <option value="science">Science</option>
+    <option value="travel">Travel</option>
+    <option value="business">Business</option>
+    <option value="personal-development">Personal Development</option>
+    <option value="poetry">Poetry</option>
+    <option value="essays">Essays</option>
+
+                </select>
+            </p>
+ <p>
+                <label for="genre">
+                   Status:
+                </label>
+
+                <select
+                    id="status"
+                    name="status"
+                    required>
+
+                    <option value="">
+                        Select a status
+                    </option>
+
+                    <option value="Already Read">Already Read</option>
+                    <option value="Currently Reading">Currently Reading</option>
+                    <option value="Want to Read">Want to Read</option>
+                </select>
+            </p>
+
+            <fieldset>
+                <legend>Book Rating</legend>
+ <input type="radio"
+                       id="rating1"
+                       name="rating"
+                       value="1"
+                       required>
+                <label for="rating3">1 Stars</label>
+
+                <br>
+
+ <input type="radio"
+                       id="rating2"
+                       name="rating"
+                       value="2"
+                       required>
+                <label for="rating3">2 Stars</label>
+
+                <br>
+
+
+                <input type="radio"
+                       id="rating3"
+                       name="rating"
+                       value="3"
+                       required>
+                <label for="rating3">3 Stars</label>
+
+                <br>
+
+                <input type="radio"
+                       id="rating4"
+                       name="rating"
+                       value="4">
+                <label for="rating4">4 Stars</label>
+
+                <br>
+
+                <input type="radio"
+                       id="rating5"
+                       name="rating"
+                       value="5">
+                <label for="rating5">5 Stars</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Why Should Others Read This Book?</legend>
+		
+		<table>
+		<tr>
+		<td>
+                <input type="checkbox"
+                       id="story"
+                       name="reason"
+                       value="story">
+                <label for="story">Great Story</label>
+
+		<br>
+
+                <input type="checkbox"
+                       id="characters"
+                       name="reason"a
+                       value="characters">
+                <label for="characters">
+                    Memorable Characters
+                </label>
+		
+
+		<br>
+                <input type="checkbox"
+                       id="emotional"
+                       name="reason"
+                       value="emotional">
+                <label for="emotional">
+                    Emotional Impact
+                </label>
+		
+
+		<br>
+ 		<input type="checkbox"
+                       id="character"
+                       name="reason"
+                       value="Strong Character Development">
+                <label for="Strong Character Development">
+                    Strong Character Development	
+                </label>
+		</td>
+
+		<td>
+		<input type="checkbox"
+                       id="Thought-Provoking"
+                       name="reason"
+                       value="Thought-Provoking">
+                <label for="Thought-Provoking">
+                   Thought-Provoking	
+                </label>
+		
+
+		<br>
+		<input type="checkbox"
+                       id="Meaningful Life Lessons"
+                       name="reason"
+                       value="Meaningful Life Lessons">
+                <label for="Meaningful Life Lessons">
+                   Meaningful Life Lessons
+                </label>
+		
+
+		<br>
+		<input type="checkbox"
+                       id="Engaging Dialogue"
+                       name="reason"
+                       value="Engaging Dialogue">
+                <label for="Engaging Dialogue">
+                  Engaging Dialogue
+
+<br>
+		<input type="checkbox"
+                       id="Heartwarming"
+                       name="reason"
+                       value="Heartwarming">
+                <label for="Heartwarming">
+                  Heartwarming
+
+
+                </label>
+		</td>
+<option value="fantasy">Fantasy</option>
+                  <td>
+		<input type="checkbox"
+                       id="Relatable Experiences"
+                       name="reason"
+                       value="Relatable Experiences">
+                <label for="Relatable Experiences">
+                   Relatable Experiences	
+                </label>
+		
+
+		<br>
+		<input type="checkbox"
+                       id="Inspirational Message"
+                       name="reason"
+                       value="Inspirational Message">
+                <label for="Inspirational Message">
+                   MInspirational Message
+                </label>
+		
+
+		<br>
+		<input type="checkbox"
+                       id="Unique and Original Concept"
+                       name="reason"
+                       value="Unique and Original Concept">
+                <label for="Unique and Original Concept">
+                  Unique and Original Concept
+
+<br>
+		<input type="checkbox"
+                       id="Worth Re-Reading"
+                       name="reason"
+                       value="Worth Re-Reading">
+                <label for="Worth Re-Reading">
+                  Worth Re-Reading
+
+
+                </label>
+		</td>
+
+</table>
+            </fieldset>
+
+
+            <p>
+                <label for="review">
+                    Your Review:
+                </label>
+            </p>
+
+            <textarea
+                id="review"
+                name="review"
+                rows="6"
+                cols="40"
+                placeholder="Write your review..."
+                required></textarea>
+
+            <p>
+                <button type="submit">
+                    Submit Recommendation
+                </button>
+
+                <button type="reset">
+                    Clear Form
+                </button>
+            </p>
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            <small>Chapter Corner &copy; 2026</small>
+        </p>
+    </footer>
+
+</body>
+</html>
+
