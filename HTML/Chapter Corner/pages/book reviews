@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Chapter Corner | Dashboard</title>
+</head>
+<body>
+
+    <header>
+        <h1>Chapter Corner</h1>
+
+        <p>
+            <em>Your Personal Reading Space</em>
+        </p>
+
+        <nav aria-label="Main navigation">
+             <a href="../index.html">Home</a> |
+	    <a href="my library.html">My Library</a> |
+            <a href="reading list.html">Reading List</a> |
+            <a href="reading tracker.html">Reading Tracker</a> |
+ 	    <a href="book reviews.html">Book Reviews</a> |
+            <a href="recommendations.html">Recommendations</a>|
+	    <a href="book wishlist.html">Book Wishlist</a>|
+	    <a href="articles.html">Articles</a>|
+	    <a href="about.html">About</a>|
+	    <a href="contact.html">Contact</a>|
+
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+           <section>
+<h2>Latest Book Reviews</h2>
+
+            <article>
+ <h3>Arsenic and Adobo</h3>
+ <figure>
+<div align="center">
+                <img 
+                    src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1601326656i/54351235.jpg" valign="top" width="200"
+                    alt="Cover of Arsenic and Adobo"
+                    width="200">
+</div>
+                <figcaption>
+                   <h3>Mia P. Manansala</h3>
+                </figcaption>
+            </figure>
+<p><h3>My Honest Review</h3></p>
+
+<p>Arsenic and Adobo by Mia P. Manansala is a delightful and entertaining cozy mystery that combines murder, family drama, Filipino cuisine, and a charming small-town atmosphere</p>
+
+<p>The story follows Lila Macapagal, a young Filipino American woman who returns to her hometown after a difficult breakup to help save her family's struggling restaurant. However, her plans for a fresh start quickly unravel when her former boyfriend, a notoriously unpleasant food critic, suddenly dies after eating at the restaurant. When suspicion falls on Lila, she must investigate the mysterious death to clear her name and protect her family.</p>
+
+<p>One of the novel's greatest strengths is its vibrant representation of Filipino culture, particularly its emphasis on food, family traditions, and close-knit community relationships. From delicious descriptions of adobo and other traditional dishes to the amusing interference of Lila's relatives, Manansala creates a warm and lively setting that distinguishes the novel from conventional murder mysteries.</p>
+
+<p>The writing is accessible, humorous, and engaging, balancing suspenseful moments with lighthearted interactions. Lila is a relatable protagonist whose determination, occasional impulsiveness, and loyalty to her family make her an enjoyable character to follow.</p>
+
+<p>Although certain aspects of the mystery may feel predictable and some secondary characters could benefit from further development, the novel remains an entertaining introduction to the Tita Rosie's Kitchen Mystery series.</p>
+</article> 
+    </main>
+    <hr>
+    <footer>
+        <p>
+            <small>Chapter Corner &copy; 2026</small>
+        </p>
+    </footer>
+
+</body>
+</html>
