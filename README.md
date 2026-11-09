@@ -1,6 +1,6 @@
 
 # Hi there, I'm Hextoric! 👋
-#E-mail: algebrahextoric@gmail.com
+E-mail: algebrahextoric@gmail.com
 
 ### 💻 Aspiring Front-End Developer | 📚 Book Lover | ✍️ Creative Writer
 
